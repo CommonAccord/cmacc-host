@@ -5,7 +5,7 @@ A bare folder and some stubs for the CommonAccord application.  <br>
 
 1.  On your computer you will need two standard software packages:  A) "LAMP" stack web server and B) git.  
 
-  A.  For the "LAMP" stack, I use MAMP successfully on my Mac.  https://www.mamp.info/en/  download and install in /Applications/.  On the MAMP "Web Server" tab - select Apache web server and set to something like ~{user}/Sites.  Start the servers (you won't use MySQL, but it seems to start anyway).  Note what "port" you are using. It might be like :8888, or might be nothing (on PC?). You'll need to know the port number in step 4.
+  A.  For the "LAMP" stack, I use MAMP successfully on my Mac.  https://www.mamp.info/en/  download and install in /Applications/.  On the MAMP "Web Server" tab - select Apache web server and set to something like ~{user}/Sites.  Start the servers (you won't use MySQL, but it seems to start anyway).  Note what "port" you are using. It might be like :8888, or might be nothing (on PC?). You'll need to know the port number in step 4.  PCs don't have Perl installed by default, so you may have to install it. 
   
   B. For git: on Mac - https://desktop.github.com/ 
   
@@ -23,4 +23,4 @@ Feedback at CommonAccord.Slack.com or commonaccord@gmail.com, or ... make a pull
 
 DEPENDENCIES:
 
-A LAMP stack, for instance MAMP (mamp.info).
+A LAMP stack, for instance MAMP (mamp.info), perl, git.
