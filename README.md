@@ -11,12 +11,10 @@ A bare folder and some stubs for the CommonAccord application.  <br>
   
 2. Start "cloning" the necessary files.  
 
-  A. From https://github.com/CommonAccord/cmacc-host, Clone using the green "Clone or Download" button, then the "Open in Desktop".  Guide the clone to be in ~{user}/Sites/.  
-  B. From https://github.com/CommonAccord/cmacc-app, Clone using the green "Clone or Download" button then the "Open in Desktop".  Guide the clone to be in ~{user}/Sites/cmacc-host/vendor/.
-  C. Start adding documents:  https://github.com/CommonAccord/Z-CmA, Clone using the green "Clone of Download" button.  Clone, using "Open in Desktop".  Guide the clone to be in ~{user}/Sites/cmacc-host/Doc/G/.  Rename so it becomes ~{user}/Sites/cmacc-host/Doc/G/Z/.  
-  D. Test:  Open browser and navigate to http://localhost{:portnumber}/cmacc-host/index.php?action=list&file=G/Z/ol/3.  See if you get a page, and if so, click on "Document".  You should get a little, bare section list with {Ti} 1. {1.Sec} 2. {2.Sec} 3. {3.Sec}.  If so, success!  Continue by cloning materials you want to work on.  Keep an eye out for their listed "DEPENDENCIES".  You will need to clone those, too.
+  A. From https://github.com/CommonAccord/cmacc-host, Clone using the green "Clone or Download" button, then the "Open in Desktop".  Guide the clone to be in ~{user}/Sites/.  This includes the basic folder layout and i) the app (https://github.com/CommonAccord/cmacc-app) and the basic set of document widgets for making paragraphs, sections, some documents https://github.com/CommonAccord/Z-CmA, mounted as /G/Z/*)
+  B. Test:  Open browser and navigate to http://localhost{:portnumber}/cmacc-host/index.php?action=list&file=G/Z/ol/3.  See if you get a page, and if so, click on "Document".  You should get a little, bare section list with {Ti} 1. {1.Sec} 2. {2.Sec} 3. {3.Sec}.  If so, success!  Continue by cloning materials you want to work on.  Keep an eye out for their listed "DEPENDENCIES".  You will need to clone those, too. If you are making contract agreements, you will very likely want https://github.com/CommonAccord/Agt-Form-CmA, which has frameworks for contract agreements in English and some French. 
 
-You can add files using a text editor, move files using a file manager, edit files with an editor or the "Edit" view in the app.  If you use an IDE - for instance Emacs - you can make edits across groups of files and otherwise improve your productivity.
+You can add files using a text editor, move files using a file manager, edit files with an editor or the "Edit" view in the app.  If you use an IDE - for instance Visual Studio - you can make edits across groups of files and otherwise improve your productivity.
 
 Feedback at CommonAccord.Slack.com or commonaccord@gmail.com, or ... make a pull request!
 
